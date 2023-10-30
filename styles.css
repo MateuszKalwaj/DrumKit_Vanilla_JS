@@ -11,13 +11,19 @@ body,html {
 }
 
 h1 {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 5rem auto auto auto;
+    font-size: 3.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 40rem;
+    height: 5rem;
     text-align: center;
-    align-content: center;
-    margin-top: 80px;
-    font-family: "Frank Ruhl Hofshi", serif;
-    font-size: 36px;
-    background-image: repeating-linear-gradient(darkblue, #ffc600);
-
+    color: white;
+    background: rgba(0,0,0,0.6);
+    text-shadow: 0 0 .5rem black;
+    font-family: Georgia, serif ;
 }
 
 .keys {
